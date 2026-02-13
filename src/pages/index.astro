@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content';
+import PlantLayout from '../layouts/PlantLayout.astro';
+
+const plants = await getCollection('plants');
+---
+
+<PlantLayout title="My Plants">
+  <h1 class="text-2xl font-bold mb-6 text-stone-700">My Plants</h1>
+  
+  <div class="space-y-4">
+    {plants.map((plant) => (
+      <a 
+        href={`/plants/${plant.slug}`}
+        class="block bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow border border-stone-200"
+      >
+        <div class="flex items-center gap-4">
+          {plant.data.image && (
+            <img 
+              src={plant.data.image} 
+              alt={plant.data.title}
+              class="w-16 h-16 object-cover rounded-md"
+            />
+          )}
+          <div class="flex-1">
+            <h2 class="font-semibold text-lg">{plant.data.title}</h2>
+            <div class="flex gap-3 text-sm text-stone-500 mt-1">
+              <span>💧 {plant.data.water}</span>
+              <span>☀️ {plant.data.light}</span>
+            </div>
+          </div>
+          <span class={`text-xs px-2 py-1 rounded-full ${
+            plant.data.difficulty === 'easy' ? 'bg-green-100 text-green-700' :
+            plant.data.difficulty === 'medium' ? 'bg-yellow-100 text-yellow-700' :
+            'bg-red-100 text-red-700'
+          }`}>
+            {plant.data.difficulty}
+          </span>
+        </div>
+      </a>
+    ))}
+  </div>
+</PlantLayout>
