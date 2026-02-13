@@ -12,7 +12,7 @@ image: "/images/monstera.jpg"
 - **Water**: Let soil dry between waterings
 - **Light**: Bright indirect light
 - **Humidity**: Prefers 60%+ humidity
-- **Temperature**: 65-85°F (18-30°C)
+- **Temperature**: 18-30°C (65-85°F)
 
 ## Detailed Guide
 

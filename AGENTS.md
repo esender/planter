@@ -121,6 +121,11 @@ interface Props {
 }
 ```
 
+### Units
+
+- Use metric system as default (°C for temperature, cm for dimensions)
+- Include imperial in parentheses as secondary: `18-30°C (65-85°F)`
+
 ### Astro Component Structure
 
 ```astro

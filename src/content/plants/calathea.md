@@ -12,7 +12,7 @@ image: "/images/calathea.jpg"
 - **Water**: Keep soil consistently moist but not soggy
 - **Light**: Bright indirect light, tolerates lower light
 - **Humidity**: High (60%+), mist regularly
-- **Temperature**: 65-80°F (18-27°C)
+- **Temperature**: 18-27°C (65-80°F)
 
 ## Detailed Guide
 
