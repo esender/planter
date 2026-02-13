@@ -1,10 +1,10 @@
-# AGENTS.md - Agentic Coding Guidelines for Planter
+# AGENTS.md - Agentic Coding Guidelines for RQooted
 
 This file provides guidelines for agentic coding agents working in this repository.
 
 ## Project Overview
 
-Planter is an Astro-based plant care tracking website deployed to Cloudflare Pages. It uses content collections for plant data and Tailwind CSS for styling.
+RQooted is an Astro-based plant care tracking website deployed to Cloudflare Pages. It uses content collections for plant data and Tailwind CSS for styling.
 
 ## Tech Stack
 
