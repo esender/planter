@@ -1,7 +1,8 @@
 ---
 title: "Calathea"
-water: "Keep moist"
-light: "Indirect low to medium"
+water: "keep moist"
+lightAmount: "medium"
+lightType: "indirect"
 difficulty: "medium"
 image: "/images/calathea.jpg"
 ---

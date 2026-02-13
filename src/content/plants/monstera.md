@@ -1,7 +1,8 @@
 ---
 title: "Monstera Deliciosa"
-water: "Weekly"
-light: "Bright indirect"
+water: "weekly"
+lightAmount: "bright"
+lightType: "indirect"
 difficulty: "easy"
 image: "/images/monstera.jpg"
 ---
