@@ -4,7 +4,7 @@ water: "weekly"
 lightAmount: "bright"
 lightType: "indirect"
 difficulty: "easy"
-image: "/images/monstera.jpg"
+image: "/images/monstera.webp"
 ---
 
 ## Quick Care

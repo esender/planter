@@ -26,7 +26,7 @@ const plants = await getCollection('plants');
             <h2 class="font-semibold text-lg">{plant.data.title}</h2>
             <div class="flex gap-3 text-sm text-stone-500 mt-1">
               <span>💧 {plant.data.water}</span>
-              <span>☀️ {plant.data.light}</span>
+              <span>☀️ {plant.data.lightAmount} {plant.data.lightType}</span>
             </div>
           </div>
           <span class={`text-xs px-2 py-1 rounded-full ${
