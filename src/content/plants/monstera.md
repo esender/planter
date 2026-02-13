@@ -5,6 +5,11 @@ lightAmount: "bright"
 lightType: "indirect"
 difficulty: "easy"
 image: "/images/monstera.webp"
+toxicity: "toxic"
+humidity: "medium"
+fertilizer: "monthly"
+origin: "Central America"
+growthRate: "fast"
 ---
 
 ## Quick Care

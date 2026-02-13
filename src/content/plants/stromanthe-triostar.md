@@ -5,6 +5,11 @@ water: keep moist
 lightAmount: bright
 lightType: indirect
 difficulty: medium
+toxicity: non-toxic
+humidity: high
+fertilizer: monthly
+origin: "Brazil"
+growthRate: medium
 ---
 
 The Stromanthe Triostar (*Stromanthe sanguinea* 'Triostar') is a stunning tropical plant native to the rainforests of Brazil. Known for its vibrant tricolored foliage featuring green, pink, burgundy, and cream hues, this plant belongs to the prayer plant family (Marantaceae).

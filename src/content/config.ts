@@ -22,6 +22,14 @@ const lightTypeEnum = z.enum([
 
 const difficultyEnum = z.enum(['easy', 'medium', 'hard']);
 
+const toxicityEnum = z.enum(['toxic', 'non-toxic', 'unknown']);
+
+const humidityEnum = z.enum(['low', 'medium', 'high']);
+
+const fertilizerEnum = z.enum(['monthly', 'biweekly', 'rarely', 'none']);
+
+const growthRateEnum = z.enum(['slow', 'medium', 'fast']);
+
 const plants = defineCollection({
   type: 'content',
   schema: z.object({
@@ -31,6 +39,11 @@ const plants = defineCollection({
     lightAmount: lightAmountEnum,
     lightType: lightTypeEnum,
     difficulty: difficultyEnum.default('easy'),
+    toxicity: toxicityEnum.default('unknown'),
+    humidity: humidityEnum.optional(),
+    fertilizer: fertilizerEnum.optional(),
+    origin: z.string().optional(),
+    growthRate: growthRateEnum.optional(),
   }),
 });
 
