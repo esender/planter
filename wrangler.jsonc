@@ -6,6 +6,11 @@
 		"nodejs_compat",
 		"global_fetch_strictly_public"
 	],
+	"routes": [
+		{
+			"pattern": "qrooted.marat.dev"
+		}
+	],
 	"assets": {
 		"binding": "ASSETS",
 		"directory": "./dist"
