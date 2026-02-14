@@ -8,7 +8,8 @@
 	],
 	"routes": [
 		{
-			"pattern": "qrooted.marat.dev"
+			"pattern": "qrooted.marat.dev",
+			"custom_domain": true
 		}
 	],
 	"assets": {
