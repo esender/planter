@@ -5,8 +5,11 @@ import PlantLayout from '../layouts/PlantLayout.astro';
 const plants = await getCollection('plants');
 ---
 
-<PlantLayout title="My Plants">
-  <h1 class="text-2xl font-bold mb-6 text-stone-700">My Plants</h1>
+<PlantLayout title="QRooted">
+  <h1 class="mb-6 flex items-center gap-3 text-2xl font-bold text-stone-700">
+    <img src="/qrooted.webp" alt="QRooted logo" class="h-10 w-10" />
+    <span>QRooted</span>
+  </h1>
   
   <div class="space-y-4">
     {plants.map((plant) => (
